@@ -1,0 +1,54 @@
+﻿/* 스타일 초기화 */
+* { margin: 0px ; padding: 0px ; }
+header, body, footer { font-size: 14px; font-family: 나눔고딕,굴림,돋음,'Times New Roman',serif; width: 100%; }
+header, footer { text-align : center ; }
+body { margin: auto; text-align:center;}
+footer { position: fixed; bottom: 0px; }
+table {border: 3px solid green;}
+
+/* 공통 스타일 */
+h1 { padding: 15px; font-size: 30px ; color: black; }
+h2 { font-size: 15px; color: black; }
+h3 { margin: 10px; font-size: 15px; color: purple; text-shadow: 5px 5px 8px purple; }
+h1, h2 { background-image: url(logo.jpg); background-repeat: repeat-x; }
+
+img { border: 0; padding: 2px; width:30px;height:30px;}
+
+nav { margin: 5px 5px; }
+nav > span > a { font-style: bold; margin: 0 ; padding: 3px; border: 2px solid purple; float: right; text-decoration: none; background: purple; color: white; }
+nav > span > a:hover { background: #ff00ff; color: white; }
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float:right; }
+	footer { clear: both; }
+}
+.content  { clear: both; }
+.section1 ul li { list-style-position: inside; list-style-image: url("li.jpg"); text-align:center;}
+.section2 ul li { list-style-position: inside; text-align:center; list-style-type: cjk-ideographic ;}
+.section3 ul li { list-style-position: inside; list-style-type: circle; text-align:center;}
+/* mintro.html 적용 스타일 */
+#stu-pic { width: 28em; height: 27em; float: left; }
+
+
+/* minfo.html 적용 스타일 */
+#year-table { table-layout: auto; width: 95%; border-collapse: seperate; }
+#year-table thead { background: #E4F2D0; }
+#logo { position: fixed; top:130px; left: 510px; width:200px;height:200px;opacity: 0.15;} 
+
+/* mstudy.html 적용 스타일 */
+video { margin: 5px; width: 300px; height: 200px; }
+
+/* mcareer.html 적용 스타일 */
+.semi-pic { width: 13em; height: 13em;  }
+#pic-container { overflow: hidden; }
+#pic-container:hover {height: 220px; }
+#pic1:hover { -webkit-transform: translate(150px,50px) scale(7,7); transform: scale(0.5); }
+#pic2:hover { -webkit-transform: translate(100px,50px) scale(7,7) ; transform: scale(0.5); }
+#pic3:hover { -webkit-transform: translate(30px,50px) scale(7,7); transform: scale(0.5); }
+/* resume.html 적용 스타일 */
+#aaaa { font-size: 55px; text-align: left;}
+#aa { width:10em; height : 12em; float : right;}
+.b { font-size :25px; text-align : left;}
+.c { font-size :20px; text-align : left;}
+.d { font-size :16px; text-align : left; padding-right : 50px;text-align:right;}
+.e ul li { list-style-type: square;list-style-position: inside;}
